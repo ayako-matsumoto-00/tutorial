@@ -13,3 +13,12 @@ gulp.task('watch',function(){
 });
 
 gulp.task('default',["watch"]);
+
+
+var coffee = require('gulp-coffee');
+
+gulp.task('coffee', function() {
+  gulp.src('./src/coffee/**/*.coffee')
+    .pipe(coffee())
+    .pipe(gulp.dest('./dist/js'))
+});
