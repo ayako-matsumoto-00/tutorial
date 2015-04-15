@@ -1,2 +1,2 @@
 # tutorial
-stylusサンプルファイルです
+stylus/CoffeeScripのサンプルファイルです
